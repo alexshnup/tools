@@ -17,8 +17,8 @@ source <(python your_script.py path_to_your_yaml_file.yml)
 ```
 
 ## Requirements
--Python 3
--PyYAML package
+- Python 3
+- PyYAML package
 
 Install PyYAML using pip:
 ```bash
