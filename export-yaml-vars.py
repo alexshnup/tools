@@ -24,3 +24,17 @@ if __name__ == "__main__":
     parser.add_argument('file_path', help="Path to the YAML file")
     args = parser.parse_args()
     main(args.file_path)
+
+
+# apk add python3
+# pip3 install pyyaml
+
+#    - source <(python3 deploy/helm/portal-mlg-backend/export-yaml-vars.py deploy/helm/portal-mlg-backend/values-dev.yaml)
+#    - env | grep YAML_ENV
+
+# YAML_ENV_GLOBAL_GLOBAL_EMAILSENDERSETUP_ENABLESSL=False
+# YAML_ENV_GLOBAL_GLOBAL_REFRESHTOKENLIFETIME=3600
+# YAML_ENV_GLOBAL_GLOBAL_EMAILSENDERSETUP_PASSWORD=default
+# YAML_ENV_GLOBAL_GLOBAL_REQUESTS_RABBITMQ_MEMORY=1024Mi
+
+
